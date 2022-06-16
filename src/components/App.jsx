@@ -15,6 +15,8 @@ function App() {
       console.log(prevValue);
       return [...prevValue, task];
     });
+    
+    setTask("");
   }
 
   return (
